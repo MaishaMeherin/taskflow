@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskflow</title>
+</head>
+<body>
+    <main>
+        <section class="app-container">
+            <header class="app-header">
+                <h1 class="app-title">Task Flow</h1>
+                <p class="app-desciption"> Smooth flow from adding to completing tasks</p>
+            </header>
+
+            <!-- Task manager section -->
+            <section class="task-manager">
+                <div class="task-search">
+                    <input type="text" id="task-search" placeholder="Search tasks">
+                </div>
+
+                <form class="add-task-form" id="addTaskForm">
+                    <input type="text" id="taskInput" placeholder="Add a new task" autocomplete="off" required>
+                    <button type="submit" id="addTaskBtn">Add Task</button>
+                </form>
+
+                <div class="task-list">
+                    <ul id="task-list">
+                        <!-- Tasks will be dynamically added here -->
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Footer section -->
+            <footer class="app-footer">
+                <p class="app-copyright">© 2025 TaskFlow. All rights reserved.</p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
